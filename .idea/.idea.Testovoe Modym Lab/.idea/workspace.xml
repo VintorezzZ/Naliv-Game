@@ -12,9 +12,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/FluidController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TabletController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FPSController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/WaterController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TabletController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CAMController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerRaycast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HomeButton.cs" root0="FORCE_HIGHLIGHTING" />
@@ -30,8 +30,9 @@
         <option value="$PROJECT_DIR$/Assets/Rotator.cs" />
         <option value="$PROJECT_DIR$/Assets/FluidController.cs" />
         <option value="$PROJECT_DIR$/Assets/HomeButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/TabletController.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerRaycast.cs" />
+        <option value="$PROJECT_DIR$/Assets/Drag.cs" />
+        <option value="$PROJECT_DIR$/Assets/TabletController.cs" />
       </list>
     </option>
   </component>
@@ -60,10 +61,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="37576">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="37576" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -80,6 +81,7 @@
       <updated>1608648560809</updated>
       <workItem from="1608648570048" duration="16720000" />
       <workItem from="1608879361818" duration="28075000" />
+      <workItem from="1608910363732" duration="1246000" />
     </task>
     <servers />
   </component>

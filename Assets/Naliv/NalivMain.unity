@@ -10181,6 +10181,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1246006773}
+  - component: {fileID: 1246006774}
+  - component: {fileID: 1246006775}
   m_Layer: 0
   m_Name: iPad
   m_TagString: Untagged
@@ -10196,7 +10198,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1246006772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.37, y: -0.28, z: 0.56}
+  m_LocalPosition: {x: -0.315, y: -0.197, z: 0.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1246148815369390920}
@@ -10205,6 +10207,31 @@ Transform:
   m_Father: {fileID: 546752237}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1246006774
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246006772}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.22, y: 0.34, z: -0.02}
+  m_Center: {x: 0, y: 0.15, z: 0}
+--- !u!114 &1246006775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246006772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28b07ee39915aa04b995a56afa4a79e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1331988313
 GameObject:
   m_ObjectHideFlags: 0
@@ -10231,9 +10258,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331988313}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.00000020861623}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.0000002087791}
   m_LocalPosition: {x: 0.0014, y: 0.1564, z: 0.0037}
-  m_LocalScale: {x: 0.18682155, y: 0.2678219, z: 0.01}
+  m_LocalScale: {x: 0.19, y: 0.27, z: 0.01}
   m_Children: []
   m_Father: {fileID: 1246006773}
   m_RootOrder: 1
