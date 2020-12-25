@@ -11,6 +11,4 @@ public class HomeButton : MonoBehaviour
     {
         tablet.SetActive(false);
     }
-
- 
 }
